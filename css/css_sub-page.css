@@ -1,0 +1,268 @@
+/*start left_bottom*/
+#row2{
+	width: 104%;
+	height: 140px;
+	border-top: 0.5px;
+	border-bottom: 0.5px;
+	border-left: 0.5px;
+	border-right: 0.5px;
+	border-style: solid;
+	border-color: gray;
+	background: #FFFFFF;
+	padding-left: 5px;
+	padding-top: 3px;
+}
+
+.total{
+	padding-left: 12px;
+}
+
+.total>#row2>.col-sm-2>a>img{
+	width: 135px;
+	height: 120px;
+	padding-top: 15px;
+}
+/*End left_bottom*/
+
+/*Start first_left*/
+#app_body>.col-md-9>.row>.col-md-4>#i{
+	color: #ea2994;
+	font-size: 20px;
+}
+
+#app_body>.col-md-9>.row>.col-md-4>.bt{
+	color: #ea2994;
+	font-size: 13px;
+	background: white;
+	border: 0.5px solid #ea2994;
+	border-bottom: 0px;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	width: 65px;
+	height: 25px;
+	text-align: left;
+}
+#app_body>.col-md-9>.row>.col-md-4>span{
+	color: #ea2994;
+}
+
+/*End first_left*/
+
+/*Start center_left*/
+.name_home_sub{
+	border: 0.5px solid gray;
+	height: 40px;
+	padding-left: 6px;
+	background: #666666;
+	color: #FFFFFF;
+}
+
+.add_home_sub{
+	border: 0.5px solid gray;
+	padding-left: 6px;
+	color: black;
+	line-height: 19px;
+}
+/*End first_left*/
+
+/*<!-- start end_left -->*/
+.row-row{
+	padding-left: 42%;
+}
+/*<!-- end end_left -->*/
+
+/*start search_right*/
+#total-where{
+	background: white;
+	width: 103%;
+	height: auto;
+	border: 1px solid gray;
+	border-top: 0px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+.total-total-where{
+	padding-left: 20px;
+}
+
+#select{
+	width: 85%;
+	height: 28px;
+}
+
+.from{
+	float: left;
+	width: 35%;
+	padding-left: 12px;
+	height: auto;
+}
+
+#label{
+	width: 70px;
+	height: 20px;
+	float: left;
+}
+
+.under{
+	float: left;
+	width: 10%;
+	text-align: left;
+	padding-left: 5px;
+}
+
+.to{
+	float: left;
+	width: 35%;
+}
+
+#label-to{
+	width: 75px;
+	height: 20px;
+	float: left;
+}
+
+#name{
+	text-align: center;
+	background: #ea2994;
+	height: 30px;
+	color: #FFFFFF;
+	padding-top: 0.5px;
+	border: 0.5px solid gray;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	width: 100%;
+}
+
+.icon-bar{
+	padding-bottom: 2px;
+	background: #EEEEEE;
+}
+
+.icon-bar>#icon{
+	background: white;
+}
+
+.icon-bar>#icon>i{
+	float: center;
+	font-size: 15px;
+	border: 0.5px solid gray;
+	text-align: center;
+	padding-top: 2px;
+	width: 25px;
+	height: 21px;
+	color: black;
+}
+
+.right{
+	padding-left: 9px;
+	width: 97%;
+}
+
+#button{
+	width: 95%;
+	height: 28px;
+	background: #ea2994;
+	color: #FFFFFF;
+	border: 0.5px solid gray;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+#more{
+	float: left;
+	color: #FF0066;
+	text-align: left;
+}
+
+.combo{
+	text-align: center;
+	background: #EEEEEE;
+	height: 100%;
+	padding-top: 7px;
+}
+
+#where{
+	width: 50%;
+	text-align: left;
+	float: left;
+	padding-left: 5px;
+	font-size: 15px;
+	line-height: 0px;
+	border-color: black;
+	padding-top: 19px;
+	padding-bottom: 30px;
+}
+
+#where>hr{
+	width: 100%;
+}
+
+#number{
+	width: 50%;
+	text-align: right;
+	float: left;
+	padding-right: 5px;
+	font-size: 15px;
+	line-height: 0px;
+	border-color: black;
+	padding-top: 19px;
+	padding-bottom: 30px;
+}
+
+#number>hr{
+	width: 100%;
+	text-align: left;
+}
+
+#col3{
+	background: #FFFFFF; 
+	border: 0.5px solid gray; 
+	padding-top: 3px;
+	float: center;
+	width: 95%;
+	height: 100%;
+	padding-left: 4px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	text-decoration: none;
+}
+
+
+
+#home{
+	height: 35px;
+	border: 0.5px solid gray;
+	text-align: center;
+	background: #ea2994;
+	color: #FFFFFF;
+	border: 0.5px solid gray;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+
+#home>hr{
+	border-color: black;
+	width: 735%;
+	margin-top: -2.3px;
+}
+
+#right-select{
+	float: right;
+	text-align: right;
+	font-size: 17px;
+	padding-top: 7px;
+}
+
+#right-select>h5>#choose{
+	width: 42%;
+	height: 23px;
+}
+/*End search_right*/

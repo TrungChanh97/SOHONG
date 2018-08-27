@@ -1,0 +1,1153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Home</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/css_home.css">
+
+</head>
+<body>
+	<div class="container" style="background: white; box-shadow: 0px 5px 10px gray;">
+		<header id="header" class="row" >
+				<div class="navbar-header ">
+					<a class="navbar-brand collapse navbar-collapse" href="#">
+						<img id="logo" src="img/logo.jpg" alt="Logo">
+						<h4 style="color: #ea2994; font-family: Roboto-Black">Sohong.vn</h4>
+						<h4 style="color: #5d1e35; font-family: Roboto-Black"><strong>BÁN ĐÚNG GIÁ</strong></h4>
+					</a>	
+				<pxiv>
+				<div id="banner" class="nav navbar-nav">
+					<div class="row banner">
+						<div id="col_banner" class="col-md-12">
+						<img id="banner_img" class="img-responsive" src="img/banner_right.jpg" alt="Banner2">
+						</div>
+					</div>
+					<div class="row banner">
+						<div id="col_banner" class="col-md-12">
+							<ul class="nav navbar-nav navbar-left collapse navbar-collapse">
+								<li><a href="#" class="fa fa-facebook-square"></a></li>
+								<li><a href="#" class="fa fa-google-plus-square"></a></li>
+								<li><a href="#" class="fa fa-youtube-square"></a></li>
+								<li><a href="#" class="fa fa-twitter-square"></a></li>
+								<li><a href="#" class="fa fa-skype"></a></li>
+								<li><a href="#" class="fa fa-yc-square"></a></li>
+							</ul>
+							<ul class="nav navbar-nav navbar-right">
+								<li>
+									<i class="fa fa-arrow-right">
+										<a class="btn"><strong>Đăng tin nhà đất</strong></a>
+									</i>		
+								</li>
+								<li>
+									<i class="fa fa-edit" >
+										<a class="btn"><strong>Đăng ký thành viên</strong></a>
+									</i>										 
+								</li>
+								<li>
+									<i class="fa fa-users" >
+										<a class="btn"><strong>Đăng nhập</strong></a>
+									</i>									
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+		</header>		
+		<div class="row" style="background: #ea2994">
+			<ul id="taskbar" class="nav navbar-nav">
+				<li><a href="#" class="fa fa-home"></a></li>
+				<li><a href="#">Nhà bán</a></li>
+				<li><a href="#">Đất bán</a></li>
+				<li><a href="#">Cho thuê</a></li>
+				<li><a href="#">Dự án</a></li>
+				<li><a href="#">Xây dựng</a></li>
+				<li><a href="#">Nội thất</a></li>
+				<li><a href="#">Phong thuỷ</a></li>
+				<li><a href="#">Tin tức</a></li>
+				<li><a href="#">Liên hệ</a></li>
+				<li><a href="#">Hỏi đáp</a></li>
+			</ul>
+		</div>
+		<!--End Header-->
+		<main id="app_body" class="row">
+			<div id="main" class="col-md-9">
+				<div class="row" style="margin-top: 15px;margin-bottom: 15px;">
+					<div class="col-md-8 col-md-offset-4">
+						<input class="input_search" type="text" placeholder="Nhập từ khoá để tìm theo cụm từ">
+						<select name="" id="select_top">
+							<option value="">Nhà bán</option>
+						</select>
+						<button id="btn_search_top" class="btn">Tìm kiếm</button>
+					</div>
+				</div>
+				<!--Search-->
+				<div class="row">
+					<div id="left" class="col-md-4 clear-fix">
+						<div>
+							<h4>TÌM KIẾM BẤT ĐỘNG SẢN</h4>
+						</div>
+						<div>
+							<div class="col-md-4">
+								<button>Bán nhà đất</button>
+							</div>
+							<div class="col-md-4">
+								<button>Nhà đất cho thuê</button>
+							</div>
+							<div class="col-md-4">
+								<button>Tìm mô giới</button>
+							</div>
+						</div>
+						<div>
+							<div class="col-md-12" style="background: #f1f1f2; font-size: 14px;">
+								<div class="col-md-10 col-md-offset-1" style="padding: 0">
+									<input type="text" placeholder="Nhập địa điểm, dự án" style="width: 100%; margin-top: 10px; height: 30px;">
+									<select name="" id="" class="select_left">
+										<option value="">Chọn loại nhà đất</option>
+									</select>
+									<select name="" id="" class="select_left">
+										<option value="">Chọn Tỉnh/Thành phố</option>
+									</select>
+									<select name="" id="" class="select_left">
+										<option value="">Chọn Quận/Huyện</option>
+									</select>
+									<select name="" id="" class="select_left">
+										<option value="">Chọn diện tích</option>
+									</select>
+									<select name="" id="" class="select_left">
+										<option value="">Chọn mức giá</option>
+									</select>
+									<button id="btn_search_left">Tìm kiếm</button>
+									<p>Có <span style="color:#ea2994;">123.456</span> <strong>bất động sản</strong> mới</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="mid" class="col-md-4 clear-fix">
+						<img src="img/img_mid.jpg" alt="hinh anh" style="width: 100%;">
+						<h4 class="title_news">
+							<a href="#">DKRA Việt Nam được vinh danh top 10 sàn giao dịch BĐS xuất sắc nhất</a>
+						</h4>
+						<p class="description">Sau khi được vinh danh "Sàn giao dịch xuất sắc nhất Việt Nam" do Hiệp hội BĐS Việt Nam (VNREA)  trao tặng, DKRA Việt Nam tiếp tục được xướng tên "Top 10 Sàn giao dịch BĐS xuất sắc nhất" do Hiệp hội Môi giới BĐS Việt Nam (VARS) bình chọn.</p>
+					</div>
+					<div id="right" class="col-md-4 clear-fix">
+						<ul class="list_title">
+							<li>
+								<a href="#">Nhà đầu cơ bất động sản đang dịch chuyển về tỉnh lẻ</a>
+							</li>
+							<li>
+								<a href="#">DKRA Việt Nam được vinh danh top 10 sàn giao dịch BĐS xuất sắc nhất</a>
+							</li>
+							<li>
+								<a href="#">Thị trường BĐS Đà Nẵng xuất hiện "bong bóng", dân đầu cơ tháo chạy</a>
+							</li>
+							<li>
+								<a href="#">Cận cảnh toà nhà cao nhất Việt Nam mới mọc tại Tp.HCM</a>
+							</li>
+							<li>
+								<a href="#">7 yếu tố tác động đến tương lai bất động sản công nghiêp Việt Nam</a>
+							</li>
+							<li>
+								<a href="#">Nhà đầu cơ bất động sản đang dịch chuyển về tỉnh lẻ</a>
+							</li>
+							<li>
+								<a href="#">DKRA Việt Nam được vinh danh top 10 sàn giao dịch BĐS xuất sắc nhất</a>
+							</li>
+							<li>
+								<a href="#">Thị trường BĐS Đà Nẵng xuất hiện "bong bóng", dân đầu cơ tháo chạy</a>
+							</li>
+							<li>
+								<a href="#">Cận cảnh toà nhà cao nhất Việt Nam mới mọc tại Tp.HCM</a>
+							</li>
+							<li>
+								<a href="#">7 yếu tố tác động đến tương lai bất động sản công nghiêp Việt Nam</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!--END-->
+				<div class="row">
+					<div class="col-md-12 title_hot">
+						<h4>TIN HOT</h4>
+						<h5><a href="#">Xem thêm</a></h5>
+						<br>
+						<hr>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md-12" style="padding: 0;margin-left: 15px">
+						<div class="col-md-3 list_home">
+							<img class="thumb_art" src="img/home1.jpg" alt="home">
+							<div class="name_home">
+								<h5>Gem Riverside</h5>
+								<h5>KHU A</h5>
+							</div>
+							<div class="add_home">
+								<p>Quận 2</p>
+								<p>TP. Hồ Chí Minh</p>
+							</div>
+						</div>
+						<div class="col-md-3 list_home">
+							<img class="thumb_art" src="img/home1.jpg" alt="home">
+							<div class="name_home">
+								<h5>Gem Riverside</h5>
+								<h5>KHU A</h5>
+							</div>
+							<div class="add_home">
+								<p>Quận 2</p>
+								<p>TP. Hồ Chí Minh</p>
+							</div>
+						</div>
+						<div class="col-md-3 list_home">
+							<img class="thumb_art" src="img/home1.jpg" alt="home">
+							<div class="name_home">
+								<h5>Gem Riverside</h5>
+								<h5>KHU A</h5>
+							</div>
+							<div class="add_home">
+								<p>Quận 2</p>
+								<p>TP. Hồ Chí Minh</p>
+							</div>
+						</div>
+						<div class="col-md-3 list_home">
+							<img class="thumb_art" src="img/home1.jpg" alt="home">
+							<div class="name_home">
+								<h5>Gem Riverside</h5>
+								<h5>KHU A</h5>
+							</div>
+							<div class="add_home">
+								<p>Quận 2</p>
+								<p>TP. Hồ Chí Minh</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12" style="padding: 0;margin-left: 15px">
+						<div class="col-md-3 list_home">
+							<img class="thumb_art" src="img/home2.jpg" alt="home">
+							<div class="name_home">
+								<h5>Gem Riverside</h5>
+								<h5>KHU B</h5>
+							</div>
+							<div class="add_home">
+								<p>Quận 2</p>
+								<p>TP. Hồ Chí Minh</p>
+							</div>
+						</div>
+						<div class="col-md-3 list_home">
+							<img class="thumb_art" src="img/home2.jpg" alt="home">
+							<div class="name_home">
+								<h5>Gem Riverside</h5>
+								<h5>KHU B</h5>
+							</div>
+							<div class="add_home">
+								<p>Quận 2</p>
+								<p>TP. Hồ Chí Minh</p>
+							</div>
+						</div>
+						<div class="col-md-3 list_home">
+							<img class="thumb_art" src="img/home2.jpg" alt="home">
+							<div class="name_home">
+								<h5>Gem Riverside</h5>
+								<h5>KHU B</h5>
+							</div>
+							<div class="add_home">
+								<p>Quận 2</p>
+								<p>TP. Hồ Chí Minh</p>
+							</div>
+						</div>
+						<div class="col-md-3 list_home">
+							<img class="thumb_art" src="img/home2.jpg" alt="home">
+							<div class="name_home">
+								<h5>Gem Riverside</h5>
+								<h5>KHU B</h5>
+							</div>
+							<div class="add_home">
+								<p>Quận 2</p>
+								<p>TP. Hồ Chí Minh</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--END LIST HOME-->
+				<div class="row">
+					<div class="col-md-12 title_hot">
+						<h4>Nhà bán</h4>
+						<h5><a href="#">Xem thêm</a></h5>
+						<br>
+						<hr>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md-12" style="padding: 0;margin-left: 15px">
+						<div class="col-md-3 list_home_sell">
+							<img class="thumb_art" src="img/home1.jpg" alt="home">
+							<div class="name_home">
+								<h5>Gem Riverside</h5>	
+							</div>
+							<div class="add_home">
+								<p>Quận 2</p>
+								<p>TP. Hồ Chí Minh</p>
+							</div>
+						</div>
+						<div class="col-md-3 list_home_sell">
+							<img class="thumb_art" src="img/home1.jpg" alt="home">
+							<div class="name_home">
+								<h5>Gem Riverside</h5>
+							</div>
+							<div class="add_home">
+								<p>Quận 2</p>
+								<p>TP. Hồ Chí Minh</p>
+							</div>
+						</div>
+						<div class="col-md-3 list_home_sell">
+							<img class="thumb_art" src="img/home1.jpg" alt="home">
+							<div class="name_home">
+								<h5>Gem Riverside</h5>
+							</div>
+							<div class="add_home">
+								<p>Quận 2</p>
+								<p>TP. Hồ Chí Minh</p>
+							</div>
+						</div>
+						<div class="col-md-3 list_home_sell">
+							<img class="thumb_art" src="img/home1.jpg" alt="home">
+							<div class="name_home">
+								<h5>Gem Riverside</h5>
+							</div>
+							<div class="add_home">
+								<p>Quận 2</p>
+								<p>TP. Hồ Chí Minh</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12" style="padding: 0;margin-left: 15px">
+						<div class="col-md-3 list_home_sell">
+							<img class="thumb_art" src="img/home2.jpg" alt="home">
+							<div class="name_home">
+								<h5>Gem Riverside</h5>
+							</div>
+							<div class="add_home">
+								<p>Quận 2</p>
+								<p>TP. Hồ Chí Minh</p>
+							</div>
+						</div>
+						<div class="col-md-3 list_home_sell">
+							<img class="thumb_art" src="img/home2.jpg" alt="home">
+							<div class="name_home">
+								<h5>Gem Riverside</h5>
+							</div>
+							<div class="add_home">
+								<p>Quận 2</p>
+								<p>TP. Hồ Chí Minh</p>
+							</div>
+						</div>
+						<div class="col-md-3 list_home_sell">
+							<img class="thumb_art" src="img/home2.jpg" alt="home">
+							<div class="name_home">
+								<h5>Gem Riverside</h5>							
+							</div>
+							<div class="add_home">
+								<p>Quận 2</p>
+								<p>TP. Hồ Chí Minh</p>
+							</div>
+						</div>
+						<div class="col-md-3 list_home_sell">
+							<img class="thumb_art" src="img/home2.jpg" alt="home">
+							<div class="name_home">
+								<h5>Gem Riverside</h5>
+							</div>
+							<div class="add_home">
+								<p>Quận 2</p>
+								<p>TP. Hồ Chí Minh</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--END LIST HOME SELL-->
+				<div class="row">
+					<div class="col-md-12 title_hot">
+						<h4>Đất bán</h4>
+						<h5><a href="#">Xem thêm</a></h5>
+						<br>
+						<hr>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md-12" style="padding: 0;margin-left: 15px">
+						<div class="col-md-3 list_ban_dat">
+							<img class="thumb_art" src="img/home1.jpg" alt="home">
+							<div class="name_home">
+								<h5>Gem Riverside</h5>	
+							</div>
+							<div class="add_home">
+								<p>Quận 2</p>
+								<p>TP. Hồ Chí Minh</p>
+							</div>
+						</div>
+						<div class="col-md-3 list_ban_dat">
+							<img class="thumb_art" src="img/home1.jpg" alt="home">
+							<div class="name_home">
+								<h5>Gem Riverside</h5>
+							</div>
+							<div class="add_home">
+								<p>Quận 2</p>
+								<p>TP. Hồ Chí Minh</p>
+							</div>
+						</div>
+						<div class="col-md-3 list_ban_dat">
+							<img class="thumb_art" src="img/home1.jpg" alt="home">
+							<div class="name_home">
+								<h5>Gem Riverside</h5>
+							</div>
+							<div class="add_home">
+								<p>Quận 2</p>
+								<p>TP. Hồ Chí Minh</p>
+							</div>
+						</div>
+						<div class="col-md-3 list_ban_dat">
+							<img class="thumb_art" src="img/home1.jpg" alt="home">
+							<div class="name_home">
+								<h5>Gem Riverside</h5>
+							</div>
+							<div class="add_home">
+								<p>Quận 2</p>
+								<p>TP. Hồ Chí Minh</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12" style="padding: 0;margin-left: 15px">
+						<div class="col-md-3 list_ban_dat">
+							<img class="thumb_art" src="img/home2.jpg" alt="home">
+							<div class="name_home">
+								<h5>Gem Riverside</h5>
+							</div>
+							<div class="add_home">
+								<p>Quận 2</p>
+								<p>TP. Hồ Chí Minh</p>
+							</div>
+						</div>
+						<div class="col-md-3 list_ban_dat">
+							<img class="thumb_art" src="img/home2.jpg" alt="home">
+							<div class="name_home">
+								<h5>Gem Riverside</h5>
+							</div>
+							<div class="add_home">
+								<p>Quận 2</p>
+								<p>TP. Hồ Chí Minh</p>
+							</div>
+						</div>
+						<div class="col-md-3 list_ban_dat">
+							<img class="thumb_art" src="img/home2.jpg" alt="home">
+							<div class="name_home">
+								<h5>Gem Riverside</h5>							</div>
+							<div class="add_home">
+								<p>Quận 2</p>
+								<p>TP. Hồ Chí Minh</p>
+							</div>
+						</div>
+						<div class="col-md-3 list_ban_dat">
+							<img class="thumb_art" src="img/home2.jpg" alt="home">
+							<div class="name_home">
+								<h5>Gem Riverside</h5>
+							</div>
+							<div class="add_home">
+								<p>Quận 2</p>
+								<p>TP. Hồ Chí Minh</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--END BAN DAT-->
+				<div class="row">
+					<div class="col-md-12 title_hot">
+						<h4>Cho thuê</h4>
+						<h5><a href="#">Xem thêm</a></h5>
+						<br>
+						<hr>
+					</div>
+				</div>			
+				<div class="row">
+					<div class="col-md-12" style="padding: 0;margin-left: 15px">
+						<div class="col-md-3 list_cho_thue">
+							<img class="thumb_art" src="img/home1.jpg" alt="home">
+							<div class="name_home">
+								<h5>Gem Riverside</h5>	
+							</div>
+							<div class="add_home">
+								<p>Quận 2</p>
+								<p>TP. Hồ Chí Minh</p>
+							</div>
+						</div>
+						<div class="col-md-3 list_cho_thue">
+							<img class="thumb_art" src="img/home1.jpg" alt="home">
+							<div class="name_home">
+								<h5>Gem Riverside</h5>
+							</div>
+							<div class="add_home">
+								<p>Quận 2</p>
+								<p>TP. Hồ Chí Minh</p>
+							</div>
+						</div>
+						<div class="col-md-3 list_cho_thue">
+							<img class="thumb_art" src="img/home1.jpg" alt="home">
+							<div class="name_home">
+								<h5>Gem Riverside</h5>
+							</div>
+							<div class="add_home">
+								<p>Quận 2</p>
+								<p>TP. Hồ Chí Minh</p>
+							</div>
+						</div>
+						<div class="col-md-3 list_cho_thue">
+							<img class="thumb_art" src="img/home1.jpg" alt="home">
+							<div class="name_home">
+								<h5>Gem Riverside</h5>
+							</div>
+							<div class="add_home">
+								<p>Quận 2</p>
+								<p>TP. Hồ Chí Minh</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12" style="padding: 0;margin-left: 15px">
+						<div class="col-md-3 list_cho_thue">
+							<img class="thumb_art" src="img/home2.jpg" alt="home">
+							<div class="name_home">
+								<h5>Gem Riverside</h5>
+							</div>
+							<div class="add_home">
+								<p>Quận 2</p>
+								<p>TP. Hồ Chí Minh</p>
+							</div>
+						</div>
+						<div class="col-md-3 list_cho_thue">
+							<img class="thumb_art" src="img/home2.jpg" alt="home">
+							<div class="name_home">
+								<h5>Gem Riverside</h5>
+							</div>
+							<div class="add_home">
+								<p>Quận 2</p>
+								<p>TP. Hồ Chí Minh</p>
+							</div>
+						</div>
+						<div class="col-md-3 list_cho_thue">
+							<img class="thumb_art" src="img/home2.jpg" alt="home">
+							<div class="name_home">
+								<h5>Gem Riverside</h5>							</div>
+							<div class="add_home">
+								<p>Quận 2</p>
+								<p>TP. Hồ Chí Minh</p>
+							</div>
+						</div>
+						<div class="col-md-3 list_cho_thue">
+							<img class="thumb_art" src="img/home2.jpg" alt="home">
+							<div class="name_home">
+								<h5>Gem Riverside</h5>
+							</div>
+							<div class="add_home">
+								<p>Quận 2</p>
+								<p>TP. Hồ Chí Minh</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--END LIST CHO THUE-->
+				<div class="row">
+					<div class="col-md-12 title_hot">
+						<h4>BẤT ĐỘNG SẢN NỔI BẬT</h4>
+						<h5><a href="#">Xem thêm</a></h5>
+						<br>
+						<hr>
+					</div>
+				</div>	
+				<div class="row">
+					<div class="col-md-12" style="padding: 0;margin-left: 15px">
+						<div class="col-md-3 list_bds_hot">
+							<img class="thumb_art" src="img/home1.jpg" alt="home">
+							<div class="name_home">
+								<h5>Gem Riverside</h5>	
+							</div>
+							<div class="add_home">
+								<p>Quận 2</p>
+								<p>TP. Hồ Chí Minh</p>
+							</div>
+						</div>
+						<div class="col-md-3 list_bds_hot">
+							<img class="thumb_art" src="img/home1.jpg" alt="home">
+							<div class="name_home">
+								<h5>Gem Riverside</h5>
+							</div>
+							<div class="add_home">
+								<p>Quận 2</p>
+								<p>TP. Hồ Chí Minh</p>
+							</div>
+						</div>
+						<div class="col-md-3 list_bds_hot">
+							<img class="thumb_art" src="img/home1.jpg" alt="home">
+							<div class="name_home">
+								<h5>Gem Riverside</h5>
+							</div>
+							<div class="add_home">
+								<p>Quận 2</p>
+								<p>TP. Hồ Chí Minh</p>
+							</div>
+						</div>
+						<div class="col-md-3 list_bds_hot">
+							<img class="thumb_art" src="img/home1.jpg" alt="home">
+							<div class="name_home">
+								<h5>Gem Riverside</h5>
+							</div>
+							<div class="add_home">
+								<p>Quận 2</p>
+								<p>TP. Hồ Chí Minh</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--END LIST BDS HOT-->
+				<div class="row">
+					<div class="col-md-12 title_hot">
+						<h4>TIN ĐĂNG MỚI NHẤT</h4>
+						<h5><a href="#">Xem thêm</a></h5>
+						<br>
+						<hr>
+					</div>
+				</div>
+				<div class="row home_row" style="margin-top: 35px;">
+					<div class="col-md-2">
+						<img src="img/home3.jpg" alt="hinh 3">
+					</div>
+					<div class="col-md-8">
+						<h5>Nhà Phố Đường Cây Trâm 4mx16m Đúc 4.5 Tấm Giá 6.8 Tỷ</h5>
+						<div class="row">
+							<div class="col-xs-3">
+								<p>Diện tích</p>
+							</div>
+							<div class="col-xs-9">
+								<p>: 4mx16m</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-3">
+								<p>Cấu trúc</p>
+							</div>
+							<div class="col-xs-9">
+								<p>: 1 triệt 1 lửng 3 lầu, Đường nhựa thông 8m, Sổ hồng 2018</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-3">
+								<p>Quận/huyện</p>
+							</div>
+							<div class="col-xs-9">
+								<p>: Gò Vấp</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-2">
+						<h4 class="price">Giá: 6.8 tỷ</h4>
+					</div>
+				</div>
+				<div class="row home_row">
+					<div class="col-md-2">
+						<img src="img/home3.jpg" alt="hinh 3">
+					</div>
+					<div class="col-md-8">
+						<h5>Nhà Phố Đường Cây Trâm 4mx16m Đúc 4.5 Tấm Giá 6.8 Tỷ</h5>
+						<div class="row">
+							<div class="col-xs-3">
+								<p>Diện tích</p>
+							</div>
+							<div class="col-xs-9">
+								<p>: 4mx16m</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-3">
+								<p>Cấu trúc</p>
+							</div>
+							<div class="col-xs-9">
+								<p>: 1 triệt 1 lửng 3 lầu, Đường nhựa thông 8m, Sổ hồng 2018</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-3">
+								<p>Quận/huyện</p>
+							</div>
+							<div class="col-xs-9">
+								<p>: Gò Vấp</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-2">
+						<h4 class="price">Giá: 6.8 tỷ</h4>
+					</div>
+				</div>
+				<div class="row home_row">
+					<div class="col-md-2">
+						<img src="img/home3.jpg" alt="hinh 3">
+					</div>
+					<div class="col-md-8">
+						<h5>Nhà Phố Đường Cây Trâm 4mx16m Đúc 4.5 Tấm Giá 6.8 Tỷ</h5>
+						<div class="row">
+							<div class="col-xs-3">
+								<p>Diện tích</p>
+							</div>
+							<div class="col-xs-9">
+								<p>: 4mx16m</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-3">
+								<p>Cấu trúc</p>
+							</div>
+							<div class="col-xs-9">
+								<p>: 1 triệt 1 lửng 3 lầu, Đường nhựa thông 8m, Sổ hồng 2018</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-3">
+								<p>Quận/huyện</p>
+							</div>
+							<div class="col-xs-9">
+								<p>: Gò Vấp</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-2">
+						<h4 class="price">Giá: 6.8 tỷ</h4>
+					</div>
+				</div>
+				<div class="row home_row">
+					<div class="col-md-2">
+						<img src="img/home3.jpg" alt="hinh 3">
+					</div>
+					<div class="col-md-8">
+						<h5>Nhà Phố Đường Cây Trâm 4mx16m Đúc 4.5 Tấm Giá 6.8 Tỷ</h5>
+						<div class="row">
+							<div class="col-xs-3">
+								<p>Diện tích</p>
+							</div>
+							<div class="col-xs-9">
+								<p>: 4mx16m</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-3">
+								<p>Cấu trúc</p>
+							</div>
+							<div class="col-xs-9">
+								<p>: 1 triệt 1 lửng 3 lầu, Đường nhựa thông 8m, Sổ hồng 2018</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-3">
+								<p>Quận/huyện</p>
+							</div>
+							<div class="col-xs-9">
+								<p>: Gò Vấp</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-2">
+						<h4 class="price">Giá: 6.8 tỷ</h4>
+					</div>
+				</div>
+				<div class="row home_row">
+					<div class="col-md-2">
+						<img src="img/home3.jpg" alt="hinh 3">
+					</div>
+					<div class="col-md-8">
+						<h5>Nhà Phố Đường Cây Trâm 4mx16m Đúc 4.5 Tấm Giá 6.8 Tỷ</h5>
+						<div class="row">
+							<div class="col-xs-3">
+								<p>Diện tích</p>
+							</div>
+							<div class="col-xs-9">
+								<p>: 4mx16m</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-3">
+								<p>Cấu trúc</p>
+							</div>
+							<div class="col-xs-9">
+								<p>: 1 triệt 1 lửng 3 lầu, Đường nhựa thông 8m, Sổ hồng 2018</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-3">
+								<p>Quận/huyện</p>
+							</div>
+							<div class="col-xs-9">
+								<p>: Gò Vấp</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-2">
+						<h4 class="price">Giá: 6.8 tỷ</h4>
+					</div>
+				</div>
+				<div class="row home_row">
+					<div class="col-md-2">
+						<img src="img/home3.jpg" alt="hinh 3">
+					</div>
+					<div class="col-md-8">
+						<h5>Nhà Phố Đường Cây Trâm 4mx16m Đúc 4.5 Tấm Giá 6.8 Tỷ</h5>
+						<div class="row">
+							<div class="col-xs-3">
+								<p>Diện tích</p>
+							</div>
+							<div class="col-xs-9">
+								<p>: 4mx16m</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-3">
+								<p>Cấu trúc</p>
+							</div>
+							<div class="col-xs-9">
+								<p>: 1 triệt 1 lửng 3 lầu, Đường nhựa thông 8m, Sổ hồng 2018</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-3">
+								<p>Quận/huyện</p>
+							</div>
+							<div class="col-xs-9">
+								<p>: Gò Vấp</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-2">
+						<h4 class="price">Giá: 6.8 tỷ</h4>
+					</div>
+				</div>
+				<div class="row home_row">
+					<div class="col-md-2">
+						<img src="img/home3.jpg" alt="hinh 3">
+					</div>
+					<div class="col-md-8">
+						<h5>Nhà Phố Đường Cây Trâm 4mx16m Đúc 4.5 Tấm Giá 6.8 Tỷ</h5>
+						<div class="row">
+							<div class="col-xs-3">
+								<p>Diện tích</p>
+							</div>
+							<div class="col-xs-9">
+								<p>: 4mx16m</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-3">
+								<p>Cấu trúc</p>
+							</div>
+							<div class="col-xs-9">
+								<p>: 1 triệt 1 lửng 3 lầu, Đường nhựa thông 8m, Sổ hồng 2018</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-3">
+								<p>Quận/huyện</p>
+							</div>
+							<div class="col-xs-9">
+								<p>: Gò Vấp</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-2">
+						<h4 class="price">Giá: 6.8 tỷ</h4>
+					</div>
+				</div>
+				<div class="row home_row">
+					<div class="col-md-2">
+						<img src="img/home3.jpg" alt="hinh 3">
+					</div>
+					<div class="col-md-8">
+						<h5>Nhà Phố Đường Cây Trâm 4mx16m Đúc 4.5 Tấm Giá 6.8 Tỷ</h5>
+						<div class="row">
+							<div class="col-xs-3">
+								<p>Diện tích</p>
+							</div>
+							<div class="col-xs-9">
+								<p>: 4mx16m</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-3">
+								<p>Cấu trúc</p>
+							</div>
+							<div class="col-xs-9">
+								<p>: 1 triệt 1 lửng 3 lầu, Đường nhựa thông 8m, Sổ hồng 2018</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-3">
+								<p>Quận/huyện</p>
+							</div>
+							<div class="col-xs-9">
+								<p>: Gò Vấp</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-2">
+						<h4 class="price">Giá: 6.8 tỷ</h4>
+					</div>
+				</div>
+				<div class="row home_row">
+					<div class="col-md-2">
+						<img src="img/home3.jpg" alt="hinh 3">
+					</div>
+					<div class="col-md-8">
+						<h5>Nhà Phố Đường Cây Trâm 4mx16m Đúc 4.5 Tấm Giá 6.8 Tỷ</h5>
+						<div class="row">
+							<div class="col-xs-3">
+								<p>Diện tích</p>
+							</div>
+							<div class="col-xs-9">
+								<p>: 4mx16m</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-3">
+								<p>Cấu trúc</p>
+							</div>
+							<div class="col-xs-9">
+								<p>: 1 triệt 1 lửng 3 lầu, Đường nhựa thông 8m, Sổ hồng 2018</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-3">
+								<p>Quận/huyện</p>
+							</div>
+							<div class="col-xs-9">
+								<p>: Gò Vấp</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-2">
+						<h4 class="price">Giá: 6.8 tỷ</h4>
+					</div>
+				</div>
+				<div class="row home_row">
+					<div class="col-md-2">
+						<img src="img/home3.jpg" alt="hinh 3">
+					</div>
+					<div class="col-md-8">
+						<h5>Nhà Phố Đường Cây Trâm 4mx16m Đúc 4.5 Tấm Giá 6.8 Tỷ</h5>
+						<div class="row">
+							<div class="col-xs-3">
+								<p>Diện tích</p>
+							</div>
+							<div class="col-xs-9">
+								<p>: 4mx16m</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-3">
+								<p>Cấu trúc</p>
+							</div>
+							<div class="col-xs-9">
+								<p>: 1 triệt 1 lửng 3 lầu, Đường nhựa thông 8m, Sổ hồng 2018</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-3">
+								<p>Quận/huyện</p>
+							</div>
+							<div class="col-xs-9">
+								<p>: Gò Vấp</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-2">
+						<h4 class="price">Giá: 6.8 tỷ</h4>
+					</div>
+				</div>
+				<!--HOME ROW-->
+				<div class="row">
+					<div class="col-md-12 title_hot">
+						<h4>MÔ GIỚI TIÊU BIỂU</h4>
+						<h5><a href="#">Xem thêm</a></h5>
+						<br>
+						<hr>
+					</div>
+				</div>
+				<div class="row" style="margin-top: 15px;">
+					<div id="Carousel_MG" class="carousel">  
+					    <div class="carousel-inner">
+							<div class="item active col-md-3 col-xs-12">
+							    <img src="img/mogioi1.jpg" alt="mogioi">
+							</div>        
+							<div class="item col-md-3 col-xs-12">
+							    <img src="img/mogioi2.jpg" alt="mogioi">
+							</div>
+					    	<div class="item col-md-3 col-xs-12">
+							    <img src="img/mogioi3.jpg" alt="mogioi">
+							</div>
+					  		<div class="item col-md-3 col-xs-12">
+							    <img src="img/mogioi4.jpg" alt="mogioi">
+							</div>
+						    <a class="left carousel-control" href="#Carousel_MG" data-slide="prev" style="margin-left: 15px;">
+						      	<span class="glyphicon glyphicon-chevron-left"></span>
+						      	<span class="sr-only">Previous</span>
+						    </a>
+						    <a class="right carousel-control" href="#Carousel_MG" data-slide="next">
+						      	<span class="glyphicon glyphicon-chevron-right"></span>
+						      	<span class="sr-only">Next</span>
+						    </a>
+					  	</div>
+					</div>
+				</div>
+				<!--Carousel MO GIOI-->
+				<div class="row">
+					<div class="col-md-12 title_hot">
+						<h4>ĐỐI TÁC</h4>
+						<h5><a href="#">Xem thêm</a></h5>
+						<br>
+						<hr>
+					</div>
+				</div>
+				<div class="row" style="margin-top: 15px;">
+					<div id="Carousel_DT" class="carousel">  
+					    <div class="carousel-inner">
+							<div class="item active col-md-3 col-xs-12">
+							    <img src="img/doitac1.jpg" alt="doitac">
+							</div>        
+							<div class="item col-md-3 col-xs-12">
+							    <img src="img/doitac2.jpg" alt="doitac">
+							</div>
+					    	<div class="item col-md-3 col-xs-12">
+							    <img src="img/doitac3.jpg" alt="doitac">
+							</div>
+					  		<div class="item col-md-3 col-xs-12">
+							    <img src="img/doitac4.jpg" alt="doitac">
+							</div>
+						    <a class="left carousel-control ccollapse navbar-collapse" href="#Carousel_DT" data-slide="prev" style="margin-left: 15px;">
+						      	<span class="glyphicon glyphicon-chevron-left"></span>
+						      	<span class="sr-only">Previous</span>
+						    </a>
+						    <a class="right carousel-control" href="#Carousel_DT" data-slide="next">
+						      	<span class="glyphicon glyphicon-chevron-right"></span>
+						      	
+						    </a>
+					  	</div>
+					</div>
+				</div>
+			</div>
+			<!--END MAIN-->
+			<div id="slidebar" class="col-md-3" style="padding-bottom: 100%;">
+				<h4>HOTLINE: <strong>1800XXXX</strong></h4>
+				<!--data-offset-top="270" data-offset-bottom="790"-->
+				<div class="slider_img" data-spy="affix" data-offset-top="255" data-offset-bottom="790">
+					<img src="img/slidebar1.jpg" alt="slidebar">
+					<img src="img/slidebar1.jpg" alt="slidebar">
+					<img src="img/slidebar2.jpg" alt="slidebar">
+				</div>
+			</div>
+		</main>
+		<!--End app-body-->
+		<footer id="footer" class="row">
+			<div id="footer_left" class="col-md-9">
+				<h5 style="color:#ea2994"><strong>Mua bán và cho thuê nhà đât trên Sohong.vn</strong></h5>
+				<p><strong>Sohong.vn</strong> có hơn <strong>1.000.000</strong> cho thuê và mua bán nhà đất tại Việt Nam. Chúng tôi liệt kê danh sách nhiều thông tin nhà đất nhất phục vụ mọi nhu cầu, từ phòng trọ tới biệt thự cao cấp. Bạn là nhà đầu tư hay gia đình cần nhà để ở? <strong>Sohong.vn</strong> đều có thể giúp bạn. Tìm tin bán nhà đất hoặc cho thuê nhà đất mới nhất bằng cách sử dụng công cụ tìm kiếm hoặc các đường link ngay trên trang chủ.</p>
+				<div class="row">
+					<div class="col-md-6">
+						<i class="fa fa-arrow-right get_email" style="color:#ea2994; font-size: 15px;"></i>
+						<p class="get_email"><strong>Đăng ký ngay</strong> để nhận bản tin điện tử từ <strong style="color: #ea2994;">Sohong.vn</strong></p>
+					</div>
+					<div class="col-md-6">
+						<input class="input_email" type="text" placeholder="Nhập email của bạn">
+						<button id="btn_sign" class="btn">Đăng ký</button>
+					</div>
+				</div>
+				<hr>
+				<div  class="row"  style="font-size: 12px;">
+					<div class="col-md-3">
+						<p><strong>Dự án bất động sản Hồ Chí Minh</strong></p>
+						<p>Căn hộ Riva Park</p>
+						<p>Căn hộ Carillon 5</p>
+						<p>Nhà phố Vạn Xuân</p>
+						<p>Căn hộ D1Mension</p>
+						<p>Căn hộ Opal Garden</p>
+						<p>Căn hộ Gem Riverside</p>
+						<p>Căn hộ Charmington Iris q.4</p>
+					</div>
+					<div class="col-md-3">
+						<p><strong>Dự án bất động sản Đồng Nai</strong></p>
+						<p>Khu đô thị Airlink City</p>
+						<p>Khu đô thị Đại Phước</p>
+						<p>Khu đô thị Riverside Garden</p>
+						<p>Dự án bất động sản Bình Dương</p>
+						<p>Đất nền phân lô</p>
+						<p>Nhà phố liền kề Bến Cát</p>
+						<p>Chung cư căn hộ Thuận An</p>
+					</div>
+					<div class="col-md-3">
+						<p><strong>Dự án bất động sản Đà Nẵng</strong></p>
+						<p>Dự án nhà đất Ngũ Hành Sơn</p>
+						<p>Khu đô thị Coco Riverside City</p>
+						<p>Khu đô thị Đà Nẵng Pearl</p>
+						<p>Khu đô thị Auroca Đà Nẵng City</p>
+						<p>Khu đô thị Coco Ocean Spa Resort</p>
+						<p>Khu nghỉ dưỡng Coco Skyline Resort</p>
+						<p>Khu nghỉ dưỡng Boultique Hotel Đà Nẵng</p>
+					</div>
+					<div class="col-md-3">
+						<p><strong>Dự án bất động sản Hà Nội</strong></p>
+						<p>Chung cư Sun Square</p>
+						<p>Chung cư Roman Plaza</p>
+						<p>Chung cư An Bình City</p>
+						<p>Chung cư Goldmark City</p>
+						<p>Chung cư Seasons  Avenue</p>
+						<p>Chung cư The Garden Hill</p>
+						<p>Chung cư Imperia Garden</p>
+					</div>
+				</div>
+			</div>
+			
+			<div id="footer_right" class="col-md-3">
+				<img src="img/contact.jpg" alt="contact">
+			</div>
+		</footer>
+		<hr>
+		<div id="footer_info" class="row" style="background: #f1f1f2">
+			<h5>Công TY TNHH Thiên Như</h5>
+			<p>Tổng đài CSKH: 1800 1900</p>
+			<p>Copyright <i class="fa fa-copyright" style="font-size: 15px;"></i> 2018 - 2018 Sohong.vn</p>
+			<p>Email: <u>info@sohong.vn</u></p>
+			<ul class="nav navbar-nav navbar-left" style="margin: 0 38% 0 44%;">
+				<li><a href="#" class="fa fa-facebook-square"></a></li>
+				<li><a href="#" class="fa fa-google-plus-square"></a></li>
+				<li><a href="#" class="fa fa-youtube-square"></a></li>
+				<li><a href="#" class="fa fa-twitter-square"></a></li>
+				<li><a href="#" class="fa fa-skype"></a></li>
+				<li><a href="#" class="fa fa-yc-square"></a></li>
+			</ul>
+			<p>Giấy phép XXXX/GP-STTTT do Sở Thông tin và Truyền thông XXX cấp ngày X tháng X năm 2018</p>
+			<p>Chịu trách nhiệm nội dung: Bà XXX - <i class="fa fa-registered" style="font-size: 15px"></i> Ghi rõ nguồn "Sohong.vn" khi phát hành lại thông tin từ website này.</p>
+			<p>Phát triển bời TechDev http://techdev.vn</p>
+			<hr style="margin: 0 35% 0 35%; border-top: 1px solid #ccc">
+			<h5>TRỤ SỞ CHÍNH</h5>
+			<p>XXX, XXX, TP.HCM</p>
+		</div>
+	</div>
+</body>
+</html>
